@@ -570,6 +570,7 @@ main .container .right {
     padding: 3rem;
     border-radius: var(--card-border-radius);
     width: 50%;
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 /* FONT SIZE */
@@ -732,6 +733,10 @@ main .container .right {
         display: none;
     }
 
+    .customized-theme .card {
+        width: 82vw;
+    }
+
 }
 
 
@@ -774,4 +779,9 @@ main .container .right {
     main .container .right {
         display: none;
     }
+
+    .customized-theme .card {
+        width: 92vw;
+    }
+
 }
